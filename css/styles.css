@@ -361,12 +361,32 @@ li {
     background-color: var(--main-title-color);
 }
 
-.team-item-img {}
+.team-item-img {
+    display: flex;
+}
 
 .team-content {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.team-soc-list {
+    padding: 16px 32px 30px 32px;
+}
+
+.team-soc-item-ot {
+    margin-right: 10px;
+}
+
+.team-soc-item {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--color-logo);
+}
+
+.team-soc-link {}
 
 .team-name {
     font-weight: 500;
