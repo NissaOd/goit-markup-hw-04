@@ -191,18 +191,18 @@ li {
 /* title */
 
 .title {
-    background: rgba(47, 48, 58, 0.4);
-    background: url(../images/img-main.jpg);
+    background-color: #C4C4C4;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img-main.jpg);
     padding-bottom: 200px;
     padding-top: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .title-conteiner {
-    /* display: flex; */
-    flex-direction: column;
-    /* justify-content: center; */
     text-align: center;
-    margin-top: 0;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .title-title {
@@ -230,6 +230,7 @@ li {
     color: var(--main-title-color);
     padding: 10px 32px;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .title-btn-conteiner {}
@@ -264,6 +265,26 @@ li {
 .specialty-item {
     margin-top: 0;
 }
+
+
+/* ____________________ */
+
+.specialty-icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    border: transparent;
+    background: var(--color-btn);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.specialty-item-icon {}
+
+
+/* _________________________ */
 
 .specialty-botton {
     font-weight: 700;
@@ -361,11 +382,10 @@ li {
     margin-top: 0;
     margin-bottom: 0;
     background-color: var(--main-title-color);
-}
-
-.team-item:hover {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
+
+.team-item:hover {}
 
 .team-item-img {
     display: flex;
@@ -377,25 +397,17 @@ li {
 }
 
 .team-soc-list {
-    padding-top: 16px;
+    display: flex;
+    margin-top: 16px;
     text-align: center;
+    gap: 10px;
+    justify-content: center;
 }
 
 
 /* _____________soc-icon_________________________________________________________________ */
 
-.team-soc-list {
-    gap: 10px;
-}
-
-.team-soc-item {
-    display: inline-flex;
-    для
-    /* width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: var(--color-logo);  */
-}
+.team-soc-item {}
 
 .team-soc-link {
     display: flex;
@@ -452,7 +464,6 @@ li {
 /* btn */
 
 .btn {
-    text-align: center;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -495,11 +506,6 @@ li {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.btn-item-btn:focus {
-    background-color: var(--color-logo);
-    color: var(--main-title-color);
-}
-
 
 /* services */
 
@@ -515,8 +521,10 @@ li {
 
 .services-foto {}
 
-.services-item:hover {
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+.services-item {}
+
+.services-item-link:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .services-content {
@@ -599,7 +607,7 @@ li {
 
 .client-item-link:hover,
 .client-item-link:focus {
-    background-color: var(--main-title-color);
+    border-color: var(--color-logo);
 }
 
 .client-item-link:hover .client-item-icon,
@@ -627,6 +635,7 @@ li {
     margin-right: auto;
     display: flex;
     gap: 70px;
+    align-items: baseline;
 }
 
 .container-footer-address {
@@ -696,14 +705,12 @@ li {
 
 /* _____________footer-icon_________________________________________________________________ */
 
-.footer-icon {
-    padding-top: 22px;
-}
+.footer-icon {}
 
 .footer-icon-soc {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-title-color);
