@@ -384,12 +384,13 @@ li {
 
 /* _____________soc-icon_________________________________________________________________ */
 
-.team-soc-item-ot {
-    margin-right: 10px;
+.team-soc-list {
+    gap: 10px;
 }
 
 .team-soc-item {
     display: inline-flex;
+    для
     /* width: 44px;
     height: 44px;
     border-radius: 50%;
