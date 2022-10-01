@@ -363,6 +363,10 @@ li {
     background-color: var(--main-title-color);
 }
 
+.team-item:hover {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+}
+
 .team-item-img {
     display: flex;
 }
