@@ -191,7 +191,8 @@ li {
 /* title */
 
 .title {
-    background-color: #2F303A;
+    background: rgba(47, 48, 58, 0.4);
+    background: url(../images/img-main.jpg);
     padding-bottom: 200px;
     padding-top: 200px;
 }
@@ -509,7 +510,9 @@ li {
 
 .services-foto {}
 
-.services-item {}
+.services-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+}
 
 .services-content {
     padding-top: 20px;
