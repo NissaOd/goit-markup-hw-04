@@ -147,13 +147,11 @@ li {
 
 /* ___________________icon___________ */
 
-.header-item {
-    display: flex;
+.header-item {}
+
+.header-link-contact {
     align-items: center;
     gap: 10px;
-}
-
-.header-list-icon {
     fill: var(--color-icon)
 }
 
