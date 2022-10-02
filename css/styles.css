@@ -144,6 +144,32 @@ li {
     gap: 50px;
 }
 
+
+/* ___________________icon___________ */
+
+.header-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-list-icon {
+    fill: var(--color-icon)
+}
+
+.header-list-icon:hover,
+.header-list-icon:focus {
+    fill: var(--color-logo);
+}
+
+.header-item:hover .header-list-item-icon,
+.header-item:focus .header-list-item-icon {
+    fill: var(--color-logo);
+}
+
+
+/* ______________________________ */
+
 .header-link {
     display: flex;
     padding-top: 30px;
@@ -202,7 +228,7 @@ li {
 .title-conteiner {
     text-align: center;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1600px;
 }
 
 .title-title {
@@ -336,12 +362,6 @@ li {
     justify-content: space-between;
     gap: 30px;
 }
-
-
-/* .doing-foto {
-    display: block;
-    min-width: 100%;
-} */
 
 
 /* team */
@@ -522,6 +542,10 @@ li {
 .services-foto {}
 
 .services-item {}
+
+.services-item-link {
+    display: block;
+}
 
 .services-item-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
